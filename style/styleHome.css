@@ -1,0 +1,29 @@
+.zone2
+{
+	display: flex;
+	border: 20px;
+	/*background-image: radial-gradient(rgba(54,131,136, 0.4), rgb(54,131,136));*/
+	padding-left: 200px;
+}
+ 
+.zone1
+{
+	display: block;
+	color: maroon;
+	text-align: center;
+	align-content: center;
+	font-weight: bold;
+}
+
+p 
+{
+	font-size: 1.5rem;
+	font-family: Roman;
+}
+
+a
+{
+	text-decoration: none;
+	color: maroon;
+}
+

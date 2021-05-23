@@ -1,0 +1,42 @@
+.body
+{
+	font-family: 'Nunito', sans-serif;
+	color: maroon;
+	font-feature-settings: "liga" 1; 
+	transition: all 0.26s ease;
+	align-content: center;
+
+}
+
+.body:hover
+{
+	transition: all 0.5s ease;
+	background-image: radial-gradient(rgba(255,165,0, 0.3), rgba(0,0,0, 0.3));
+}
+
+button
+{
+	padding: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 30px;
+}
+
+.me
+{
+	text-shadow: 2px 2px 2px white;
+	text-decoration: none;
+	touch-action: auto;
+}
+
+button:hover
+{
+	background-color: lightblue;
+}
+
+p
+{
+	font-size: 1.4rem;
+	font-family: 'Nunito', sans-serif;
+	text-shadow: 2px 2px 20px rgba(255,165,0, 0.3);
+}

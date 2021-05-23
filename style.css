@@ -1,0 +1,191 @@
+body
+{
+	background-image: url(back.JPG);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	font-family: 'Trirong', serif;
+  	margin: auto 0;
+}
+
+.container
+{
+	display: grid;
+	padding: 1em;
+	text-align: center;
+	grid-template-areas: 15%;
+	align-content: center;
+}
+ 
+h3
+{
+	text-align: center;
+	text-transform: capitalize;
+	width: auto;
+	text-shadow: 2px 2px 4px white;
+}
+
+.inside
+{
+	display: flex;
+	grid-gap: 10px;
+	margin: 5px;
+}
+
+.inside  > .nav
+{
+	border-radius: 30px;
+	display: flex;
+	background-image: radial-gradient(rgba(98, 107, 9 , 2), rgba(150,75,0, 0.3));
+	height: 300px;
+	align-content: center;
+	justify-content: center;
+}
+
+.inside > .body
+{
+	/*background-color: rgba(255, 255, 200, 0.5);*/
+	width: 85%;
+	text-align: center;
+}
+
+
+li
+{
+	border-radius: 40px;
+	display: flex;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 50px;
+	padding-bottom: 15px;
+	margin-left: 0;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+li:hover
+{
+	border-radius: 20px;
+	/*background-image: radial-gradient(rgba(255,165,0, 0.1),lightgreen);*/
+	color: yellow;
+
+}
+
+.nav a{
+	color: yellow;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.nav a:hover
+{	
+	color: black;
+	transform: scale(1.2);
+}
+
+.push
+{
+	text-align-last: bottom;
+
+}
+
+.home a 
+{
+	color: white;
+	font-weight: bold;
+	font-family: Times`;
+}
+.home
+{
+	color: white;
+	background-color: rgba(150,75,0, 0.9);
+	border-radius: 20px;
+}
+
+.header
+{
+	background-image: radial-gradient(rgba(150,75,0, 0.9), rgba(255,165,0, 0.4) );
+	border-radius: 300px;
+	/*position: fixed;*/
+	font-size: 1.5rem;
+	font-stretch: 1.1rem;
+}
+
+.body
+{
+	border-radius: 20px;
+	/*background-image: radial-gradient(rgba(54,131,136, 0.4), rgb(54,131,136));*/
+	overflow: scroll;
+	font-size: 2rem;
+	color: white;
+}
+
+
+.nav
+{ 
+	padding: 20px;
+	border-radius: 20px;
+}
+
+
+.tamu{
+	height: 100px;
+	width: 100px;
+	padding: 20px;
+	border-radius: 100px;
+}
+
+.pot {
+	max-height: 300px;
+	overflow: hidden;
+	display: flex;
+	border-radius: 20px;
+}
+
+
+.aayush
+{
+	font-family: cursive;
+}
+
+.howdy
+{
+	display: flex;
+	grid-gap: 10px;
+	margin: 5px;
+}
+
+.tamu
+{
+	border-radius: 30px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.howdy > .howdy1
+{
+	width: 95%;
+	border-radius: 20px;
+	font-size: 3rem;
+	text-align: center;
+	font-family: 'Chelsea Market';
+	color: maroon;
+}
+
+#howdy
+{
+	width: 95%;
+	border-radius: 20px;
+	font-size: 3rem;
+	text-align: center;
+	color: maroon;
+}
+
+
+
+
+
+
+
+
